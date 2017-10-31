@@ -2,4 +2,4 @@
 
 ## Topics of reinforcement learning
 
-[Sutton and Andrew G. Barto - Reinforcement Learning: An Introduction](/sbarto-book)
+[Sutton and Andrew G. Barto - Reinforcement Learning: An Introduction](/sbartobook)
