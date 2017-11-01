@@ -3,4 +3,4 @@
 
 Presenting here some thoughts and results to some of the exercises in the book (working on the 2017 draft).
 
-[Chapter 2 - Multi-armed Bandits](multi-armed-bandits)
+[Chapter 2 - Multi-armed Bandits](Bandits)
