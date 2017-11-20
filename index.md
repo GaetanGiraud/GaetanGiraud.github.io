@@ -22,7 +22,7 @@ All the code will be made available on my [github account](https://github.com/Ga
 #### Generic Machine Learning
 [Summary of classification metrics](AI/classification-metrics.md)
 #### DNN: Convolutional Neural Networks
-[Traffic Sign Recognition with Keras](/AI/CNN/tf-recognition.ipynb)
+[Traffic Sign Recognition with Keras](/AI/CNN/tf-recognition.html)  /  [On Github](https://github.com/GaetanGiraud/GaetanGiraud.github.io/tree/master/AI/CNN)
 #### DNN: Recurrent Neural Networks
 #### DNN: Topics of Reinforcement learning
 [Sutton and Andrew G. Barto - Reinforcement Learning: An Introduction](/sbartobook)
