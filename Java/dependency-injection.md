@@ -262,4 +262,4 @@ confirming that both the UI (doing the print) and the Engine (performing the mul
 You can look at the [tests](https://github.com/GaetanGiraud/di-annotations/tree/master/src/test/java/com/ggiraud/di/tests) as well to get a feeling of the inner workings of the framework.
 
 ### The end
-That's it for this small intro, I hope it helped demystified the whole concept and that you learnt from it !
+That's it for this small intro, I hope it helped demystified the whole concept and that you learnt from it!
