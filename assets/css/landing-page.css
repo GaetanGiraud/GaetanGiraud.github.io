@@ -1,0 +1,184 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead-cuurios.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 6rem;
+  }
+}
+
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+
+
+
+
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 8rem;
+  width: 8rem;
+  margin-left: 20%;
+  margin-bottom: 10px;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .features-icons .features-icons-item .features-icons-icon {
+      margin-left: 13%;
+    }
+}
+
+@media (max-width: 990px) {
+    .features-icons .features-icons-item .features-icons-icon {
+      margin-left: 27%;
+    }
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead-cuurios.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#grad {
+    display: block;
+    height: 10px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(11,142,54),rgb(18,161,154), rgb(162,24,91), rgb(243,146,0));
+}
+
+.green {
+    background-color: rgb(11,142,54);
+}
+
+.purple {
+     background-color: rgb(18,161,154);
+}
+
+
+.blue {
+      background-color: rgb(162,24,91);
+ }
+
+
+.yellow {
+    background-color: rgb(243,146,0);
+}
+
+.title {
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.justify {
+    text-align: justify;
+}
