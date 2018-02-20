@@ -182,3 +182,13 @@ footer.footer {
 .justify {
     text-align: justify;
 }
+
+@media (min-width: 990px) {
+    .tagline {
+        padding-top: 18px;
+        display: block;
+        float: right;
+        vertical-align: bottom;
+        height: 100%;
+    }
+}
