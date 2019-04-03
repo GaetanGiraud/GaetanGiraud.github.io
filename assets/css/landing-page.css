@@ -14,8 +14,8 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/header_v3.jpg") no-repeat center center;
+  /* background-color: #343a40;*/
+  /* background: url("../img/header_v3.jpg") no-repeat center center;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -41,8 +41,8 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 8rem;
-    padding-bottom: 12rem;
+    padding-top: 14rem;
+    padding-bottom: 14rem;
   }
   header.masthead h1 {
     font-size: 6rem;

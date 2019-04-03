@@ -20,37 +20,44 @@
 
     <!-- Custom styles for this template -->
     <link href="/assets/css/landing-page.css" rel="stylesheet">
+    <link href="/assets/css/custom-style.css" rel="stylesheet">
 
   </head>
 
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light static-top">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
       <div class="container">
-
-        <a class="navbar-brand" href="#whoweare" style="height: auto;">
+        <div class="navbar-brand" href="#whoweare">
           <img src="../assets/img/cuurios-logo.png"  style="height: 50px;" alt="The logo of Cuurios">
-          <div class="tagline">
-            <span style="padding-right: 10px;">Technology</span>|
-            <span style="padding-left: 10px;padding-right: 10px;">AI</span>|
-            <span style="padding-left: 10px;padding-right: 10px;">Data Analytics</span>
-
+          <div class="tagline" style="vertical-align: middle;">
+            <span>Data to Actions</span>
           </div>
+        </div>
 
-        </a>
+        <!-- <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link"  href="#whoweare" >Who we are</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#vision">Vision</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </nav>
+    </nav>-->
 
     <!-- Masthead -->
-    <header class="masthead text-white">
+    <header class="masthead">
       <div></div>
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h1  class="display-1 " style="padding-left: 10%;">We are cuurios</h1>
+            <img src="../assets/img/cuurios-logo.png"  style="position: relative; left: 162px;" alt="The logo of Cuurios">
             <div id="grad"></div>
-            <h2  class="display-4 lead" style="padding-left: 10%;" class="mb-5">The innovation accelerators</h2>
+            <h2  class="display-4 lead" style="text-align: center" class="mb-5">Data to Actions</h2>
           </div>
         </div>
       </div>
@@ -86,9 +93,9 @@
               <div class="features-icons-icon d-flex rounded-circle blue">
                 <i class="fa fa-eye m-auto  text-white" aria-hidden="true"></i>
               </div>
-              <h3 class="title">We want to know every bit</h3>
-              <p class="lead mb-0 justify">We don’t just do data analytics, we truly want to understand what your data is about.
-                We want to experience your daily operations to make sure we understand where data analytics or artificial intelligence can add value.</p>
+              <h3 class="title">Beyond number cruncing</h3>
+              <p class="lead mb-0 justify">Our work goes beyond crunching the numbers,
+                we invest in understanding industry specific context and challenges to deliver software platforms that allow you to transform your proprietary data into actionable insights.</p>
             </div>
           </div>
           <div class="col-lg-3">
@@ -106,29 +113,44 @@
     </section>
 
     <!-- Image Showcases -->
-    <section class="showcase">
+    <section class="showcase" id="vision">
       <div class="container-fluid p-0">
         <div class="row no-gutters">
 
           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/assets/img/Helideck.jpg');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Digitize and Streamline Operations</h2>
-            <p class="lead mb-0">For a major oil and gas company we have designed and developed a cloud application that allows staff to share and alert critical operational information. </div>
+            <h2>Actionable analytics</h2>
+            <p class="lead mb-0">Data by itself doesn’t have much value until its used to explore, to test, and to learn from <strong>real-live challenges and opportunities</strong>. The key here is the importance of context.
+              <br>
+              <strong>Actions should be the inherent outcome</strong> of your data pipeline, in other words use your data to incite real world changes. Our philosophy is to keep Data Science simple by developing use cases that add value right away. If you do not transform your data into actions, great potential remains untouched!
+              <br>
+              We believe that only by providing <strong>concrete, tangible use cases</strong> can we deliver on this vision and make data an integral part of your business operations.
+
+              As such we build software solutions that deliver business value <strong>transforming your data into actions</strong>. </div>
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6 text-white showcase-img" style="background-image: url('/assets/img/FinInstitute.jpg');"></div>
           <div class="col-lg-6 my-auto showcase-text">
-            <h2>Text Analysis</h2>
-            <p class="lead mb-0">For a prominent Dutch institution, we have developed text analysis application that help analysts select external reports with the highest priority.</p>
-          </div>
+            <h2>Context is key</h2>
+            <p class="lead mb-0">Despite the potential gold mine of a large stock of data gathered over the years, we see many companies struggle to find the people, time and tools to exploit the data and transform it into <strong>relevant operational insights and actions</strong>.
+              Moreover, most companies <strong>haven’t captured, or created, the metadata</strong> needed to interpret the massive amount of data at their disposition and apply Data Science to its fullest.
+              <br>
+              This context is usually to be found in the expertise of operators and domain experts - it is difficult to build a coherent picture without the support of a software solution.
+
+              We believe in doing things in the right order, beginning with the effort to <strong>fully understand you use case</strong>.
+
+              Only then we will be able to use our software platform to deliver solutions that utilizes your data to its full potential.</div>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/assets/img/Road.jpg');"></div>
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/assets/img/FinInstitute.jpg');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Deep Learning</h2>
-            <p class="lead mb-0">For an engineering firm, we have explored the potential of deep learning models for automatic image classification and recognition. </p>
-          </div>
-        </div>
+            <h2>A software platform</h2>
+            <p class="lead mb-0">Actionable insights should be <strong>embedded right into your operations</strong> to offer the most value, they should be directly available to the people that need them.
+              <br>
+              Cuurios is developing a <strong>software platform</strong> that will allow to configure, define and operationalize the generation of actions and their management. It will allow as well the creation of a feedback loop and continuous algorithms improvements.
+              <br>
+              At Cuurios we understand that customers might have their own ideas and tools, and see <strong>flexibility as a core value</strong>. The platform will allow easy integration with existing data pipelines, and function
+            </p></div>
       </div>
     </section>
 
@@ -212,7 +234,7 @@
                 <a href="#">Privacy Policy</a>
               </li>
             </ul>-->
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Cuurios 2018. All Rights Reserved.</p>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; Cuurios 2019. All Rights Reserved.</p>
           </div>
         </div>
       </div>
